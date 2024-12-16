@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Organizer System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="folder-container"></div>
+    
+  <div class="container">
+    <h1>File Organizer System</h1>
+    
+    <div class="folder-list">
+      <h2>Folders</h2>
+      <ul id="folders"></ul>
+    </div>
+    
+    <div class="file-display">
+      <h2>Files</h2>
+      <input type="text" id="searchInput" placeholder="Search files..." />
+      <button id="sortButton">Sort Ascending</button>
+      <ul id="fileList"></ul>
+    </div>
+    
+    <div id="fileHistory">
+      <h2>File History</h2>
+      <ul id="historyList"></ul>
+    </div>
+    
+    <div id="bin">
+      <h2>Bin</h2>
+      <ul id="binList"></ul>
+      <button id="clearBin">Clear Bin</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
